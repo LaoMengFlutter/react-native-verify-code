@@ -1,0 +1,25 @@
+{
+  "name": "react-native-verify-code",
+  "version": "1.0.0",
+  "description": "验证码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mengqingdong",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/781238222/react-native-verify-code.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "pwd",
+    "input"
+  ],
+  "bugs": {
+    "url": "https://github.com/781238222/react-native-verify-code/issues"
+  },
+  "homepage": "https://github.com/781238222/react-native-verify-code#readme"
+}
