@@ -90,10 +90,10 @@ export default class VerifyCode extends Component {
             var currTime = this.countdownTime - 1;
             if (currTime <= 0) {
                 this.countdownTime = maxTime;
+                this.status = Status.End;
                 this.setState({
                     countdownTxt:endTxt,
                 });
-                this.status = Status.End;
                 clearInterval(this.timer);
             } else {
                 this.countdownTime = currTime;
