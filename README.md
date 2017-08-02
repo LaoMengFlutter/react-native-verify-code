@@ -10,11 +10,11 @@
 
     npm i react-native-touchable --save
 
-    npm i react-native-header-bar --save
+    npm i react-native-verify-code --save
 
 2、实例：
 
-    import VerifyCode from 'react-native-header-bar'
+    import VerifyCode from 'react-native-verify-code'
 
         beforeCountdown = ()=>{
             //需要返回boolean值，true：开始倒计时，false：不开始倒计时，这里可以做一些验证，比如手机号的验证
